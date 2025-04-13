@@ -35,7 +35,7 @@ const Header: React.FC = () => {
         
         <nav className="hidden md:flex items-center gap-6">
           <Link to="/" className="text-gray-700 hover:text-forest-600 transition-colors">Home</Link>
-          <Link to="/" className="text-gray-700 hover:text-forest-600 transition-colors">Map</Link>
+          <Link to="/map" className="text-gray-700 hover:text-forest-600 transition-colors">Map</Link>
           
           <DropdownMenu>
             <DropdownMenuTrigger className="flex items-center gap-1 text-gray-700 hover:text-forest-600 transition-colors outline-none">
@@ -44,16 +44,16 @@ const Header: React.FC = () => {
             </DropdownMenuTrigger>
             <DropdownMenuContent>
               <DropdownMenuItem>
-                <Link to="/" className="w-full">Northern Kenya</Link>
+                <Link to="/region/northern-kenya" className="w-full">Northern Kenya</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link to="/" className="w-full">Central Kenya</Link>
+                <Link to="/region/central-kenya" className="w-full">Central Kenya</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link to="/" className="w-full">Coastal Region</Link>
+                <Link to="/region/coastal-region" className="w-full">Coastal Region</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link to="/" className="w-full">Rift Valley</Link>
+                <Link to="/region/rift-valley" className="w-full">Rift Valley</Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
@@ -65,21 +65,21 @@ const Header: React.FC = () => {
             </DropdownMenuTrigger>
             <DropdownMenuContent>
               <DropdownMenuItem>
-                <Link to="/" className="w-full">Waterfalls</Link>
+                <Link to="/gems/waterfalls" className="w-full">Waterfalls</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link to="/" className="w-full">Caves</Link>
+                <Link to="/gems/caves" className="w-full">Caves</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link to="/" className="w-full">Lakes</Link>
+                <Link to="/gems/lakes" className="w-full">Lakes</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <Link to="/" className="w-full">Viewpoints</Link>
+                <Link to="/gems/viewpoints" className="w-full">Viewpoints</Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
           
-          <Link to="/" className="text-gray-700 hover:text-forest-600 transition-colors">About</Link>
+          <Link to="/about" className="text-gray-700 hover:text-forest-600 transition-colors">About</Link>
         </nav>
         
         <div className="hidden md:block">
@@ -111,26 +111,26 @@ const Header: React.FC = () => {
               </div>
               <nav className="flex flex-col gap-4 pt-6">
                 <Link to="/" className="px-2 py-1 text-foreground hover:text-forest-600">Home</Link>
-                <Link to="/" className="px-2 py-1 text-foreground hover:text-forest-600">Map</Link>
+                <Link to="/map" className="px-2 py-1 text-foreground hover:text-forest-600">Map</Link>
                 <div className="px-2 py-1">
                   <p className="font-medium mb-2">Camping Sites</p>
                   <div className="pl-4 flex flex-col gap-2">
-                    <Link to="/" className="text-sm text-foreground hover:text-forest-600">Northern Kenya</Link>
-                    <Link to="/" className="text-sm text-foreground hover:text-forest-600">Central Kenya</Link>
-                    <Link to="/" className="text-sm text-foreground hover:text-forest-600">Coastal Region</Link>
-                    <Link to="/" className="text-sm text-foreground hover:text-forest-600">Rift Valley</Link>
+                    <Link to="/region/northern-kenya" className="text-sm text-foreground hover:text-forest-600">Northern Kenya</Link>
+                    <Link to="/region/central-kenya" className="text-sm text-foreground hover:text-forest-600">Central Kenya</Link>
+                    <Link to="/region/coastal-region" className="text-sm text-foreground hover:text-forest-600">Coastal Region</Link>
+                    <Link to="/region/rift-valley" className="text-sm text-foreground hover:text-forest-600">Rift Valley</Link>
                   </div>
                 </div>
                 <div className="px-2 py-1">
                   <p className="font-medium mb-2">Hidden Gems</p>
                   <div className="pl-4 flex flex-col gap-2">
-                    <Link to="/" className="text-sm text-foreground hover:text-forest-600">Waterfalls</Link>
-                    <Link to="/" className="text-sm text-foreground hover:text-forest-600">Caves</Link>
-                    <Link to="/" className="text-sm text-foreground hover:text-forest-600">Lakes</Link>
-                    <Link to="/" className="text-sm text-foreground hover:text-forest-600">Viewpoints</Link>
+                    <Link to="/gems/waterfalls" className="text-sm text-foreground hover:text-forest-600">Waterfalls</Link>
+                    <Link to="/gems/caves" className="text-sm text-foreground hover:text-forest-600">Caves</Link>
+                    <Link to="/gems/lakes" className="text-sm text-foreground hover:text-forest-600">Lakes</Link>
+                    <Link to="/gems/viewpoints" className="text-sm text-foreground hover:text-forest-600">Viewpoints</Link>
                   </div>
                 </div>
-                <Link to="/" className="px-2 py-1 text-foreground hover:text-forest-600">About</Link>
+                <Link to="/about" className="px-2 py-1 text-foreground hover:text-forest-600">About</Link>
               </nav>
               <div className="mt-auto pt-6">
                 <Button className="w-full bg-safari-600 hover:bg-safari-700">
