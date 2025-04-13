@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,6 +53,35 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				safari: {
+					50: '#f7f6e7',
+					100: '#ede9c4',
+					200: '#e2d99e',
+					300: '#d5c671',
+					400: '#ccb84e',
+					500: '#c2a533',
+					600: '#ab8829',
+					700: '#8a6824',
+					800: '#725223',
+					900: '#614622',
+				},
+				forest: {
+					50: '#f0f7f0',
+					100: '#dceadc',
+					200: '#bbd7bc',
+					300: '#92bc93',
+					400: '#6a9c6c',
+					500: '#4e8050',
+					600: '#3b673d',
+					700: '#305232',
+					800: '#29422a',
+					900: '#213721',
+				},
+				kenya: {
+					red: '#bb0000',
+					green: '#006600',
+					black: '#000000',
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -84,12 +114,20 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'pulse-slow': {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0.7' },
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-slow': 'pulse-slow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+			},
+			fontFamily: {
+				adventure: ['Adventure', 'sans-serif'],
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
