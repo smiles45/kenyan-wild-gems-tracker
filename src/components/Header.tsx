@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Compass, Menu, X, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -37,6 +36,8 @@ const Header: React.FC = () => {
           <Link to="/" className="text-gray-700 hover:text-forest-600 transition-colors">Home</Link>
           <Link to="/map" className="text-gray-700 hover:text-forest-600 transition-colors">Map</Link>
           
+          <Link to="/blog" className="text-gray-700 hover:text-safari-600 transition-colors font-semibold">Blog</Link>
+
           <DropdownMenu>
             <DropdownMenuTrigger className="flex items-center gap-1 text-gray-700 hover:text-forest-600 transition-colors outline-none">
               Camping Sites
@@ -112,6 +113,7 @@ const Header: React.FC = () => {
               <nav className="flex flex-col gap-4 pt-6">
                 <Link to="/" className="px-2 py-1 text-foreground hover:text-forest-600">Home</Link>
                 <Link to="/map" className="px-2 py-1 text-foreground hover:text-forest-600">Map</Link>
+                <Link to="/blog" className="px-2 py-1 text-foreground hover:text-safari-600 font-semibold">Blog</Link>
                 <div className="px-2 py-1">
                   <p className="font-medium mb-2">Camping Sites</p>
                   <div className="pl-4 flex flex-col gap-2">

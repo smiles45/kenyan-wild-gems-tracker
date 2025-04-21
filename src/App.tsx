@@ -10,6 +10,9 @@ import GemTypePage from "./pages/GemTypePage";
 import AboutPage from "./pages/AboutPage";
 import NotFound from "./pages/NotFound";
 import LocationDetailsPage from "./pages/LocationDetailsPage";
+import BlogListPage from "./pages/BlogListPage";
+import BlogDetailPage from "./pages/BlogDetailPage";
+import BlogCreatePage from "./pages/BlogCreatePage";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +29,9 @@ const App = () => (
           <Route path="/gems/:gemType" element={<GemTypePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/location/:id" element={<LocationDetailsPage />} />
+          <Route path="/blog" element={<BlogListPage />} />
+          <Route path="/blog/new" element={<BlogCreatePage />} />
+          <Route path="/blog/:id" element={<BlogDetailPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
