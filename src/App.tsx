@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -10,6 +9,7 @@ import RegionPage from "./pages/RegionPage";
 import GemTypePage from "./pages/GemTypePage";
 import AboutPage from "./pages/AboutPage";
 import NotFound from "./pages/NotFound";
+import LocationDetailsPage from "./pages/LocationDetailsPage";
 
 const queryClient = new QueryClient();
 
@@ -25,7 +25,7 @@ const App = () => (
           <Route path="/region/:regionId" element={<RegionPage />} />
           <Route path="/gems/:gemType" element={<GemTypePage />} />
           <Route path="/about" element={<AboutPage />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="/location/:id" element={<LocationDetailsPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
