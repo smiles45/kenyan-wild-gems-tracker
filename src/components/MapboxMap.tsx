@@ -81,40 +81,75 @@ const MapboxMap: React.FC<MapboxMapProps> = ({ locations, height = "h-80" }) => 
     };
   }, [locations, token]);
 
+  // Fallback map visualization when no token is available
+  const renderFallbackMap = () => {
+    return (
+      <div className="bg-gray-100 w-full h-full flex flex-col items-center justify-center rounded-lg relative overflow-hidden">
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGZpbGw9IiNmNWY1ZjUiIGQ9Ik0wIDBoNjB2NjBIMHoiLz48cGF0aCBkPSJNMzAgMzBhMiAyIDAgMSAxIDAtNCAgMiAyIDAgMCAxIDAgNHptMTUgMGEyIDIgMCAxIDEgMC00IDIgMiAwIDAgMSAwIDR6TTE1IDMwYTIgMiAwIDEgMSAwLTQgMiAyIDAgMCAxIDAgNHoiIGZpbGw9IiNlNWU3ZWIiIGZpbGwtcnVsZT0ibm9uemVybyIvPjwvZz48L3N2Zz4=')] opacity-40"></div>
+        
+        {locations.map((location, index) => {
+          // Calculate relative position based on coordinates
+          // This is a simplified visualization - not geographically accurate
+          const left = ((location.coordinates.lng + 180) / 360) * 100;
+          const top = ((90 - location.coordinates.lat) / 180) * 100;
+          
+          return (
+            <div
+              key={index}
+              className={`absolute w-3 h-3 rounded-full transform -translate-x-1/2 -translate-y-1/2 cursor-pointer
+                ${location.type === 'camp' ? 'bg-forest-500' : 'bg-safari-500'}`}
+              style={{ 
+                left: `${Math.min(Math.max(left, 5), 95)}%`, 
+                top: `${Math.min(Math.max(top, 10), 90)}%` 
+              }}
+              title={location.name}
+            />
+          );
+        })}
+        
+        <div className="z-10 bg-white/80 p-3 rounded-lg shadow-sm text-center">
+          <p className="font-medium mb-1">Map Preview</p>
+          <p className="text-xs text-gray-500">
+            Showing {locations.length} location{locations.length !== 1 ? 's' : ''}
+          </p>
+        </div>
+        
+        <div className="absolute bottom-2 right-2 bg-white/80 px-2 py-1 rounded text-xs text-gray-500 z-10">
+          Enter Mapbox token for interactive map
+        </div>
+      </div>
+    );
+  };
+
   if (!token) {
     return (
-      <div className="flex flex-col items-center justify-center gap-3 bg-white/80 p-4 rounded-lg shadow text-center">
-        <div>
-          <b>Mapbox Token Required</b>
-        </div>
-        <div>
-          Enter your Mapbox public token (get it from{" "}
-          <a
-            href="https://account.mapbox.com/access-tokens/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline text-blue-600"
+      <div className={`relative w-full rounded-lg shadow ${height}`}>
+        {renderFallbackMap()}
+        <div className="absolute bottom-0 left-0 right-0 bg-white/90 backdrop-blur-sm p-3 rounded-b-lg shadow text-center">
+          <button
+            onClick={() => {
+              const enteredToken = prompt("Enter Mapbox token (get it from mapbox.com):");
+              if (enteredToken) {
+                localStorage.setItem("mapbox_token", enteredToken);
+                setToken(enteredToken);
+                window.location.reload();
+              }
+            }}
+            className="bg-forest-700 text-white px-3 py-1 text-sm rounded hover:bg-forest-800 transition"
           >
-            mapbox.com
-          </a>
-          ):
+            Add Mapbox Token
+          </button>
+          <p className="text-xs text-gray-500 mt-1">
+            <a
+              href="https://account.mapbox.com/access-tokens/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              Get a free token at mapbox.com
+            </a>
+          </p>
         </div>
-        <input
-          type="text"
-          placeholder="pk.eyJ1Ijo..."
-          className="input input-bordered w-full"
-          value={token ?? ""}
-          onChange={(e) => setToken(e.target.value)}
-        />
-        <button
-          className="bg-forest-700 text-white px-4 py-2 rounded hover:bg-forest-800 transition"
-          onClick={() => {
-            if (token) localStorage.setItem("mapbox_token", token);
-            window.location.reload();
-          }}
-        >
-          Save & Reload
-        </button>
       </div>
     );
   }
