@@ -6,7 +6,7 @@ export const locations: Location[] = [
     name: "Lake Paradise Camp",
     type: "camp",
     description: "Hidden high on Mount Marsabit, this campsite offers stunning views of the lake and wildlife. A true paradise for nature lovers and photographers.",
-    image: "https://images.unsplash.com/photo-1504851149312-7a075b496cc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a2VueWElMjBjYW1wJTIwc2l0ZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9GCvnQmrI5cgnxWgqTEJ5IllXd1w8pkMaOJ9rmMLFttY7chnwr-Bb-ys-V_NX70vopAY&usqp=CAU",
     coordinates: {
       lat: 2.3082,
       lng: 37.9698
