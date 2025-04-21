@@ -14,7 +14,7 @@ const fetchBlogs = async () => {
     .from("blogs")
     .select(`
       *,
-      profiles!blogs_user_id_fkey (
+      profiles (
         username,
         avatar_url
       )
