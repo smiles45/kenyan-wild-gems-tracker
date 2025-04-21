@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import Header from '@/components/Header';
+import AuthHeader from '@/components/AuthHeader';
 import Footer from '@/components/Footer';
 import HeroSection from '@/components/HeroSection';
 import MapView from '@/components/MapView';
@@ -33,7 +33,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Header />
+      <AuthHeader />
       <main className="flex-grow">
         <HeroSection />
         
