@@ -67,8 +67,7 @@ export default function BlogCreatePage() {
         {
           title,
           content,
-          author_id: user.id,
-          author_username: profile.username,
+          user_id: user.id,
         },
       ]);
 
