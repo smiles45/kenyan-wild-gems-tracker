@@ -136,7 +136,7 @@ export const locations: Location[] = [
     name: "Lake Kamnarok",
     type: "camp",
     description: "A hidden gem in the Kerio Valley, this seasonal lake attracts thousands of flamingos and offers spectacular views of the Rift Valley escarpment.",
-    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFrZXxlbnwwfHwwfHx8MA%3D&auto=format&fit=crop&w=500&q=60",
+    image: "https://www.malindikenya.net/images/uploads/articoli/2189_m.jpg",
     coordinates: {
       lat: 0.4567,
       lng: 35.6789
