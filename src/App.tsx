@@ -17,6 +17,7 @@ import BlogListPage from "./pages/BlogListPage";
 import BlogDetailPage from "./pages/BlogDetailPage";
 import BlogCreatePage from "./pages/BlogCreatePage";
 import AuthPage from "./pages/AuthPage";
+import { Analytics } from "@vercel/analytics/react"
 
 // Create a new QueryClient instance outside of the component
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
         <TooltipProvider>
           <Toaster />
           <Sonner />
+          <Analytics />
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<Index />} />
