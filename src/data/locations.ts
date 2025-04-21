@@ -93,7 +93,7 @@ export const locations: Location[] = [
     name: "Sleeping Warrior Camp",
     type: "camp",
     description: "Nestled at the base of the Sleeping Warrior hill in the Great Rift Valley, offering stunning lake views and walking safaris.",
-    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fafricatravelresource.com%2Fsafari-lodges%2Fkenya%2Flake-nakuru%2Fsleeping-warrior-lodge&psig=AOvVaw2pBSpUa7sdtF5Rn5bC3rxW&ust=1745332784211000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNCqodmt6YwDFQAAAAAdAAAAABAJ",
+    image: "https://cdn-ildhbcd.nitrocdn.com/ZCWyroguFIUDJEMIpXkwbpTdiUIsRljU/assets/images/optimized/rev-e3cff24/cdn.atrsafari.com/cdn/05explore/locations-and-lodges/africa/kenya/nakuru/sleeping-warrior-lodge/0/stills/00page/01KSWL-IM0001-sleeping-warrior-lodge-1920.jpg",
     coordinates: {
       lat: -0.4511,
       lng: 36.2345
