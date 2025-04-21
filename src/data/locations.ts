@@ -121,7 +121,7 @@ export const locations: Location[] = [
     name: "Shimba Hills Waterfalls",
     type: "gem",
     description: "A series of stunning waterfalls hidden in the Shimba Hills rainforest, surrounded by rare plant species and wildlife.",
-    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2F0ZXJmYWxsfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    image: "https://cdn.getyourguide.com/img/tour/725b30cf15c1901fdbb8a044e2fe313f144478e8b20df50b6345dd39c8bba305.jpg/99.jpg",
     coordinates: {
       lat: -4.2345,
       lng: 39.4567
