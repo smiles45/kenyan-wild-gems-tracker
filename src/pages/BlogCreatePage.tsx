@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { supabase } from "@/integrations/supabase/client";
@@ -18,6 +17,7 @@ export default function BlogCreatePage() {
   const [submitting, setSubmitting] = useState(false);
   const navigate = useNavigate();
   const { user, loading } = useAuth();
+  const [error, setError] = useState<string | null>(null);
 
   // Redirect if not authenticated
   useEffect(() => {
@@ -31,55 +31,54 @@ export default function BlogCreatePage() {
     }
   }, [user, loading, navigate]);
 
-  async function handleSubmit(e: React.FormEvent) {
+  const handleCreateBlog = async (e: React.FormEvent) => {
     e.preventDefault();
-    
-    if (!user) {
-      toast({
-        title: "You must be logged in to post a blog.",
-        variant: "destructive",
-      });
-      navigate('/auth');
-      return;
-    }
-    
-    setSubmitting(true);
-    
+    if (!user) return;
+
     try {
-      // Get user profile to get username
-      const { data: profileData, error: profileError } = await supabase
+      // First try to get the profile
+      let { data: profile, error: profileError } = await supabase
         .from("profiles")
         .select("username")
         .eq("id", user.id)
-        .single();
-        
+        .maybeSingle();
+
+      // If no profile exists, create one
+      if (!profile) {
+        const { data: newProfile, error: createError } = await supabase
+          .from("profiles")
+          .insert([
+            {
+              id: user.id,
+              username: user.email?.split('@')[0] || 'anonymous',
+              avatar_url: null
+            }
+          ])
+          .select()
+          .single();
+
+        if (createError) throw createError;
+        profile = newProfile;
+      }
+
       if (profileError) throw profileError;
-      
+
       const { error } = await supabase.from("blogs").insert([
         {
-          user_id: user.id,
-          username: profileData.username,
           title,
           content,
+          author_id: user.id,
+          author_username: profile.username,
         },
       ]);
-      
+
       if (error) throw error;
-      
-      toast({
-        title: "Your blog post has been published!",
-      });
       navigate("/blog");
-    } catch (error: any) {
-      toast({
-        title: "Error posting blog",
-        description: error.message,
-        variant: "destructive",
-      });
-    } finally {
-      setSubmitting(false);
+    } catch (error) {
+      console.error("Error creating blog:", error);
+      setError("Failed to create blog. Please try again.");
     }
-  }
+  };
 
   // Show loading state or redirect if not authenticated
   if (loading) {
@@ -99,7 +98,7 @@ export default function BlogCreatePage() {
             <CardTitle className="text-2xl">Write a Blog Post</CardTitle>
           </CardHeader>
           <CardContent>
-            <form onSubmit={handleSubmit} className="space-y-5">
+            <form onSubmit={handleCreateBlog} className="space-y-5">
               <div>
                 <label className="block mb-1 font-medium">Title</label>
                 <Input
