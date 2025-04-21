@@ -12,13 +12,7 @@ import UserAvatar from "@/components/UserAvatar";
 const fetchBlogs = async () => {
   const { data, error } = await supabase
     .from("blogs")
-    .select(`
-      *,
-      profiles (
-        username,
-        avatar_url
-      )
-    `)
+    .select("*")
     .order("created_at", { ascending: false });
   if (error) throw error;
   return data;
@@ -69,16 +63,6 @@ export default function BlogListPage() {
                       {new Date(blog.created_at).toLocaleDateString()}
                     </span>
                   </CardTitle>
-                  {blog.profiles && (
-                    <div className="flex items-center gap-2 mt-2 text-sm text-muted-foreground">
-                      <UserAvatar 
-                        username={blog.profiles.username}
-                        avatarUrl={blog.profiles.avatar_url} 
-                        size="sm"
-                      />
-                      <span>{blog.profiles.username}</span>
-                    </div>
-                  )}
                 </CardHeader>
                 <CardContent>
                   <CardDescription>
