@@ -356,5 +356,307 @@ export const locations: Location[] = [
     rating: 4.7,
     region: "Central Kenya",
     price: "$100/night"
+  },
+  {
+    id: "25",
+    name: "Loiyangalani Desert Museum",
+    type: "gem",
+    description: "A fascinating cultural museum situated on the southeastern shore of Lake Turkana, showcasing the heritage of the El Molo, Turkana, Samburu, Rendille, and Gabbra communities.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzZXJ0JTIwbXVzZXVtfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: 2.7633,
+      lng: 36.7176
+    },
+    features: ["Cultural exhibits", "Lake Turkana views", "Local crafts"],
+    rating: 4.5,
+    region: "Northern Kenya"
+  },
+  {
+    id: "26",
+    name: "Mida Creek Mangrove Forest",
+    type: "gem",
+    description: "A tidal inlet with exceptional biodiversity featuring a spectacular boardwalk through ancient mangroves. Perfect for birdwatching and sunset views.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuZ3JvdmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: -3.3399,
+      lng: 39.9945
+    },
+    features: ["Boardwalk", "Birdwatching", "Canoe trips"],
+    rating: 4.7,
+    recommended: true,
+    region: "Coastal Kenya"
+  },
+  {
+    id: "27",
+    name: "Kakamega Rainforest",
+    type: "gem",
+    description: "Kenya's only tropical rainforest and the easternmost remnant of the ancient Guineo-Congolian rainforest. Home to unique primates, birds, and butterflies found nowhere else in Kenya.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFpbmZvcmVzdHxlbnwwfHwwfHx8MA%3D&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: 0.2833,
+      lng: 34.8833
+    },
+    features: ["Rainforest trails", "Unique wildlife", "Butterflies"],
+    rating: 4.8,
+    recommended: true,
+    region: "Western Kenya"
+  },
+  {
+    id: "28",
+    name: "Oloolua Nature Trail",
+    type: "gem",
+    description: "A hidden forest sanctuary in Karen with caves, waterfalls, and peaceful trails - a perfect escape from Nairobi only 20 minutes from the city center.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9yZXN0JTIwdHJhaWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: -1.3528,
+      lng: 36.7155
+    },
+    features: ["Forest walks", "Waterfall", "Caves"],
+    rating: 4.3,
+    region: "Nairobi Area"
+  },
+  {
+    id: "29",
+    name: "Koobi Fora",
+    type: "gem",
+    description: "A paleontological and archaeological site on the eastern shore of Lake Turkana, known as the 'Cradle of Mankind' with numerous hominid fossil discoveries.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9zc2lsJTIwc2l0ZXxlbnwwfHwwfHx8MA%3D&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: 3.9466,
+      lng: 36.2057
+    },
+    features: ["Fossil sites", "Archaeological museum", "Desert landscapes"],
+    rating: 4.6,
+    region: "Northern Kenya"
+  },
+  {
+    id: "30",
+    name: "Taita Hills Cloud Forest",
+    type: "gem",
+    description: "Mystical cloud forests shrouded in mist with endemic birds and plants found nowhere else on Earth. A biodiversity hotspot with spectacular views.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xvdWQlMjBmb3Jlc3R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: -3.4833,
+      lng: 38.3667
+    },
+    features: ["Endemic species", "Cloud forest", "Hiking trails"],
+    rating: 4.7,
+    region: "Southern Kenya"
+  },
+  {
+    id: "31",
+    name: "Sibiloi National Park",
+    type: "gem",
+    description: "A UNESCO World Heritage site with petrified forests, fossil sites, and unique desert adapted wildlife along the shores of Lake Turkana.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzZXJ0JTIwcGFya3xlbnwwfHwwfHx8MA%3D&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: 3.6667,
+      lng: 36.2333
+    },
+    features: ["Petrified forest", "Fossil beds", "Desert wildlife"],
+    rating: 4.5,
+    region: "Northern Kenya"
+  },
+  {
+    id: "32",
+    name: "Chalbi Desert",
+    type: "gem",
+    description: "Kenya's only true desert featuring stunning salt flats, mirages, and sand dunes. A surreal landscape surrounded by volcanic mountains.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzZXJ0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: 3.0167,
+      lng: 37.5333
+    },
+    features: ["Salt flats", "Desert landscape", "Cultural experiences"],
+    rating: 4.6,
+    recommended: true,
+    region: "Northern Kenya"
+  },
+  {
+    id: "33",
+    name: "Sheldrick Falls",
+    type: "gem",
+    description: "A beautiful hidden waterfall in Shimba Hills National Reserve where visitors can swim in the cool, clear waters after a scenic forest hike.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2F0ZXJmYWxsfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: -4.2742,
+      lng: 39.4156
+    },
+    features: ["Swimming", "Waterfall", "Forest hiking"],
+    rating: 4.7,
+    region: "Coastal Kenya"
+  },
+  {
+    id: "34",
+    name: "Lake Chala",
+    type: "gem",
+    description: "A stunning crater lake on the Kenya-Tanzania border with emerald-turquoise waters. Perfect for swimming, kayaking, and fishing for tilapia.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3JhdGVyJTIwbGFrZXxlbnwwfHwwfHx8MA%3D&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: -3.3167,
+      lng: 37.6833
+    },
+    features: ["Crater lake", "Swimming", "Kayaking"],
+    rating: 4.8,
+    recommended: true,
+    region: "Southern Kenya"
+  },
+  {
+    id: "35",
+    name: "Ol Lentille Conservancy",
+    type: "gem",
+    description: "A private conservancy in Laikipia with stunning landscapes and unique activities including camel safaris and cultural immersion with local communities.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uc2VydmFuY3l8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: 0.8500,
+      lng: 36.7833
+    },
+    features: ["Camel safaris", "Cultural experiences", "Star gazing"],
+    rating: 4.9,
+    recommended: true,
+    region: "Central Kenya"
+  },
+  {
+    id: "36",
+    name: "Takawiri Island",
+    type: "gem",
+    description: "A secluded island in Lake Victoria with pristine white sandy beaches and crystal-clear waters, offering a Caribbean-like experience in Kenya.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJvcGljYWwlMjBpc2xhbmR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: -0.4319,
+      lng: 34.0500
+    },
+    features: ["White sand beaches", "Island life", "Swimming"],
+    rating: 4.7,
+    region: "Western Kenya"
+  },
+  {
+    id: "37",
+    name: "Kisere Forest",
+    type: "gem",
+    description: "A small pocket of Kakamega Forest with a remarkable diversity of birds, butterflies, and monkeys. Home to the rare De Brazza's monkey.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9yZXN0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: 0.2897,
+      lng: 34.8753
+    },
+    features: ["Monkey viewing", "Bird watching", "Forest walks"],
+    rating: 4.6,
+    region: "Western Kenya"
+  },
+  {
+    id: "38",
+    name: "Menengai Crater",
+    type: "gem",
+    description: "One of Africa's largest calderas with spectacular views, hiking trails, and geothermal features. Local legends claim it's a dwelling place for spirits.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3JhdGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: -0.2000,
+      lng: 36.0667
+    },
+    features: ["Crater views", "Hiking", "Geothermal features"],
+    rating: 4.5,
+    region: "Rift Valley"
+  },
+  {
+    id: "39",
+    name: "Gedi Ruins",
+    type: "gem",
+    description: "Mysterious abandoned Swahili town from the 13th century hidden in the coastal forest, featuring palaces, mosques, and houses now reclaimed by nature.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cnVpbnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: -3.3097,
+      lng: 40.0183
+    },
+    features: ["Ancient ruins", "Archaeological site", "Historical monuments"],
+    rating: 4.7,
+    recommended: true,
+    region: "Coastal Kenya"
+  },
+  {
+    id: "40",
+    name: "Karura Forest",
+    type: "gem",
+    description: "An urban forest sanctuary in Nairobi with waterfalls, caves used by Mau Mau freedom fighters, and extensive walking and cycling trails.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXJiYW4lMjBmb3Jlc3R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: -1.2500,
+      lng: 36.8333
+    },
+    features: ["Waterfall", "Caves", "Cycling trails"],
+    rating: 4.8,
+    recommended: true,
+    region: "Nairobi Area"
+  },
+  {
+    id: "41",
+    name: "Saiwa Swamp National Park",
+    type: "gem",
+    description: "Kenya's smallest national park, a forested paradise dedicated to protecting the rare sitatunga antelope. Features raised boardwalks through the wetland.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3dhbXB8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: 1.0000,
+      lng: 35.2167
+    },
+    features: ["Sitatunga viewing", "Boardwalks", "Bird watching"],
+    rating: 4.5,
+    region: "Western Kenya"
+  },
+  {
+    id: "42",
+    name: "Ndere Island",
+    type: "gem",
+    description: "A hidden gem in Lake Victoria with hiking trails, abundant birdlife, and spectacular views of the surrounding lake and Homa Hills.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXNsYW5kfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: -0.1833,
+      lng: 34.4667
+    },
+    features: ["Island hiking", "Bird watching", "Lake views"],
+    rating: 4.4,
+    region: "Western Kenya"
+  },
+  {
+    id: "43",
+    name: "Kigio Wildlife Conservancy",
+    type: "gem",
+    description: "A hidden conservation gem between Naivasha and Nakuru featuring the endangered Rothschild giraffe and sustainable ecotourism practices.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2lyYWZmZXxlbnwwfHwwfHx8MA%3D&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: -0.5167,
+      lng: 36.3500
+    },
+    features: ["Rothschild giraffes", "Walking safaris", "Conservation"],
+    rating: 4.7,
+    region: "Rift Valley"
+  },
+  {
+    id: "44",
+    name: "Wasini Island",
+    type: "gem",
+    description: "A car-free island off Kenya's south coast with ancient coral gardens, mangrove forests, and dolphin watching opportunities.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29yYWwlMjBnYXJkZW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: -4.6667,
+      lng: 39.3667
+    },
+    features: ["Coral gardens", "Dolphin watching", "Mangrove boardwalk"],
+    rating: 4.8,
+    recommended: true,
+    region: "Coastal Kenya"
+  },
+  {
+    id: "45",
+    name: "Mount Suswa",
+    type: "gem",
+    description: "A double crater extinct volcano with extensive cave systems, baboon congress, and spectacular night views of both Nairobi and the Rift Valley.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dm9sY2Fub3xlbnwwfHwwfHx8MA%3D&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: -1.1500,
+      lng: 36.3500
+    },
+    features: ["Cave exploration", "Double crater", "Wildlife viewing"],
+    rating: 4.6,
+    region: "Rift Valley"
   }
 ];
