@@ -59,7 +59,7 @@ const GemTypePage = () => {
           </p>
           
           <div className="h-[40vh] mb-8">
-            <MapView locations={filteredLocations} />
+            <MapView locations={filteredLocations} height="h-[40vh] mb-8" />
           </div>
           
           {filteredLocations.length > 0 ? (

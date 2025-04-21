@@ -40,7 +40,7 @@ const Index = () => {
         <section className="container mx-auto px-4 py-12 mt-6">
           <h2 className="text-3xl font-bold text-center mb-8">Explore Kenya's Wilderness</h2>
           
-          <MapView locations={filteredLocations} />
+          <MapView locations={filteredLocations} height="h-96 mb-10" />
           
           <LocationFilters
             activeFilter={activeFilter}

@@ -45,7 +45,7 @@ const RegionPage = () => {
           </p>
           
           <div className="h-[40vh] mb-8">
-            <MapView locations={regionLocations} />
+            <MapView locations={regionLocations} height="h-[40vh] mb-8" />
           </div>
           
           {regionLocations.length > 0 ? (

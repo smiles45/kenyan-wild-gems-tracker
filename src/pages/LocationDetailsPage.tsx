@@ -100,7 +100,7 @@ const LocationDetailsPage: React.FC = () => {
 
         <h3 className="text-xl font-semibold mb-4">On the Map</h3>
         <div className="h-64 rounded-lg overflow-hidden mb-8 shadow-lg">
-          <MapView locations={[location]} />
+          <MapView locations={[location]} height="h-64 mb-8" />
         </div>
       </main>
       <Footer />

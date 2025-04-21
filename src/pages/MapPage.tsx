@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -13,7 +12,7 @@ const MapPage = () => {
         <div className="container mx-auto px-4 py-8">
           <h1 className="text-3xl font-bold mb-6 text-forest-800">Explore Kenya's Wild Treasures</h1>
           <div className="h-[70vh] mb-8">
-            <MapView locations={locations} />
+            <MapView locations={locations} height="h-[70vh] mb-8" />
           </div>
           <div className="bg-white/80 backdrop-blur-sm p-6 rounded-lg shadow-md">
             <h2 className="text-xl font-semibold mb-3 text-forest-700">Interactive Map Guide</h2>
