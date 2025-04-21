@@ -1,3 +1,5 @@
+
+import React from "react";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -14,29 +16,32 @@ import BlogListPage from "./pages/BlogListPage";
 import BlogDetailPage from "./pages/BlogDetailPage";
 import BlogCreatePage from "./pages/BlogCreatePage";
 
+// Create a new QueryClient instance outside of the component
 const queryClient = new QueryClient();
 
 const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/map" element={<MapPage />} />
-          <Route path="/region/:regionId" element={<RegionPage />} />
-          <Route path="/gems/:gemType" element={<GemTypePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/location/:id" element={<LocationDetailsPage />} />
-          <Route path="/blog" element={<BlogListPage />} />
-          <Route path="/blog/new" element={<BlogCreatePage />} />
-          <Route path="/blog/:id" element={<BlogDetailPage />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
-    </TooltipProvider>
-  </QueryClientProvider>
+  <React.StrictMode>
+    <QueryClientProvider client={queryClient}>
+      <TooltipProvider>
+        <Toaster />
+        <Sonner />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/map" element={<MapPage />} />
+            <Route path="/region/:regionId" element={<RegionPage />} />
+            <Route path="/gems/:gemType" element={<GemTypePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/location/:id" element={<LocationDetailsPage />} />
+            <Route path="/blog" element={<BlogListPage />} />
+            <Route path="/blog/new" element={<BlogCreatePage />} />
+            <Route path="/blog/:id" element={<BlogDetailPage />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </TooltipProvider>
+    </QueryClientProvider>
+  </React.StrictMode>
 );
 
 export default App;
