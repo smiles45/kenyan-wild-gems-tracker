@@ -231,5 +231,130 @@ export const locations: Location[] = [
     rating: 4.7,
     recommended: true,
     region: "Rift Valley"
+  },
+  {
+    id: "17",
+    name: "The Nest at Watamu",
+    type: "airbnb",
+    description: "A stunning treehouse overlooking the Indian Ocean, offering a unique blend of luxury and nature. Perfect for romantic getaways.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJlZWhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: -3.3456,
+      lng: 40.0123
+    },
+    features: ["Ocean views", "Private beach", "Treehouse living"],
+    rating: 4.9,
+    recommended: true,
+    region: "Coastal Kenya",
+    price: "$150/night"
+  },
+  {
+    id: "18",
+    name: "Samburu Eco Lodge",
+    type: "airbnb",
+    description: "An eco-friendly lodge in the heart of Samburu, offering traditional manyatta-style accommodation with modern comforts.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWNvJTIwbG9kZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: 0.5678,
+      lng: 37.2345
+    },
+    features: ["Cultural experience", "Wildlife viewing", "Sustainable living"],
+    rating: 4.7,
+    region: "Northern Kenya",
+    price: "$120/night"
+  },
+  {
+    id: "19",
+    name: "Lake Naivasha Floating House",
+    type: "airbnb",
+    description: "A unique floating house on Lake Naivasha, offering 360-degree views of the lake and its wildlife. Perfect for bird watchers.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmxvYXRpbmclMjBob3VzZXxlbnwwfHwwfHx8MA%3D&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: -0.7890,
+      lng: 36.3456
+    },
+    features: ["Floating accommodation", "Bird watching", "Lake access"],
+    rating: 4.8,
+    recommended: true,
+    region: "Rift Valley",
+    price: "$180/night"
+  },
+  {
+    id: "20",
+    name: "Mount Kenya Glass House",
+    type: "airbnb",
+    description: "A modern glass house with panoramic views of Mount Kenya, offering a luxurious mountain retreat experience.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2xhc3MlMjBob3VzZXxlbnwwfHwwfHx8MA%3D&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: 0.1234,
+      lng: 37.4567
+    },
+    features: ["Mountain views", "Modern design", "Hiking access"],
+    rating: 4.9,
+    recommended: true,
+    region: "Central Kenya",
+    price: "$200/night"
+  },
+  {
+    id: "21",
+    name: "Lamu Island House",
+    type: "airbnb",
+    description: "A traditional Swahili house in Lamu's old town, offering an authentic coastal experience with modern amenities.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3dhaGlsaSUyMGhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: -2.2345,
+      lng: 40.9012
+    },
+    features: ["Swahili architecture", "Old town location", "Beach access"],
+    rating: 4.8,
+    region: "Coastal Kenya",
+    price: "$130/night"
+  },
+  {
+    id: "22",
+    name: "Maasai Mara Safari Tent",
+    type: "airbnb",
+    description: "A luxury safari tent in a private conservancy bordering the Maasai Mara, offering exclusive wildlife experiences.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2FmYXJpJTIwdGVudHxlbnwwfHwwfHx8MA%3D&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: -1.4567,
+      lng: 35.1234
+    },
+    features: ["Wildlife viewing", "Luxury tent", "Private game drives"],
+    rating: 4.9,
+    recommended: true,
+    region: "Rift Valley",
+    price: "$250/night"
+  },
+  {
+    id: "23",
+    name: "Kisite Island Beach House",
+    type: "airbnb",
+    description: "A private beach house on a secluded island, accessible only by boat, offering complete privacy and stunning ocean views.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXNsYW5kJTIwYmVhY2glMjBob3VzZXxlbnwwfHwwfHx8MA%3D&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: -4.5678,
+      lng: 39.2345
+    },
+    features: ["Private island", "Beach access", "Snorkeling"],
+    rating: 4.9,
+    recommended: true,
+    region: "Coastal Kenya",
+    price: "$300/night"
+  },
+  {
+    id: "24",
+    name: "Aberdare Mountain Cabin",
+    type: "airbnb",
+    description: "A cozy log cabin in the Aberdare Mountains, perfect for those seeking solitude and nature. Great for hiking and bird watching.",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW4lMjBjYWJpbnxlbnwwfHwwfHx8MA%3D&auto=format&fit=crop&w=500&q=60",
+    coordinates: {
+      lat: -0.3456,
+      lng: 36.7890
+    },
+    features: ["Mountain views", "Hiking trails", "Cozy atmosphere"],
+    rating: 4.7,
+    region: "Central Kenya",
+    price: "$100/night"
   }
 ];

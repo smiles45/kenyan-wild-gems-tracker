@@ -1,5 +1,4 @@
-
-export type LocationType = 'camp' | 'gem';
+export type LocationType = 'camp' | 'gem' | 'airbnb';
 
 export interface Location {
   id: string;
@@ -15,4 +14,5 @@ export interface Location {
   rating?: number;
   recommended?: boolean;
   region: string;
+  price?: string;
 }
