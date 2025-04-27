@@ -17,6 +17,7 @@ import BlogListPage from "./pages/BlogListPage";
 import BlogDetailPage from "./pages/BlogDetailPage";
 import BlogCreatePage from "./pages/BlogCreatePage";
 import AuthPage from "./pages/AuthPage";
+import AirbnbPage from "./pages/AirbnbPage";
 import { Analytics } from "@vercel/analytics/react"
 
 // Create a new QueryClient instance outside of the component

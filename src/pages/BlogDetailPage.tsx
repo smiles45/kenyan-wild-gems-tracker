@@ -15,7 +15,7 @@ interface BlogWithProfile {
   content: string;
   created_at: string;
   user_id: string;
-  profiles: {
+  profiles?: {
     username: string;
     avatar_url: string | null;
   } | null;
@@ -73,7 +73,7 @@ export default function BlogDetailPage() {
                   <div className="flex items-center gap-2">
                     <UserAvatar 
                       username={blog.profiles.username}
-                      avatarUrl={blog.profiles.avatar_url} 
+                      avatarUrl={blog.profiles.avatar_url || undefined} 
                       size="sm"
                     />
                     <span>{blog.profiles.username}</span>
