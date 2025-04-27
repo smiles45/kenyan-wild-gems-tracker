@@ -42,6 +42,7 @@ const App = () => (
               <Route path="/blog/new" element={<BlogCreatePage />} />
               <Route path="/blog/:id" element={<BlogDetailPage />} />
               <Route path="/auth" element={<AuthPage />} />
+              <Route path="/stays" element={<AirbnbPage />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </BrowserRouter>
