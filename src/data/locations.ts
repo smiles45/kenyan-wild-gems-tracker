@@ -6,7 +6,7 @@ export const locations: Location[] = [
     name: "Lake Paradise Camp",
     type: "camp",
     description: "Hidden high on Mount Marsabit, this campsite offers stunning views of the lake and wildlife. A true paradise for nature lovers and photographers.",
-    image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07",
+    image: "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7",
     coordinates: {
       lat: 2.3082,
       lng: 37.9698
@@ -21,7 +21,7 @@ export const locations: Location[] = [
     name: "Ngare Ndare Forest",
     type: "gem",
     description: "A lush indigenous forest with crystal-clear blue pools and waterfalls. Experience the canopy walk for a bird's eye view of this magical forest.",
-    image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb",
+    image: "https://images.unsplash.com/photo-1511497584788-876760111969",
     coordinates: {
       lat: 0.2342,
       lng: 37.4112
@@ -36,7 +36,7 @@ export const locations: Location[] = [
     name: "Kipsing Gap Camp",
     type: "camp",
     description: "A remote campsite in the heart of Samburu country with spectacular views of Ewaso Nyiro river. Perfect for stargazing and disconnecting.",
-    image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9",
+    image: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4",
     coordinates: {
       lat: 0.6411,
       lng: 37.6731
@@ -50,7 +50,7 @@ export const locations: Location[] = [
     name: "Kitum Cave",
     type: "gem",
     description: "An extraordinary cave on Mount Elgon where elephants dig for salt. One of Kenya's most unique natural wonders.",
-    image: "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86",
+    image: "https://images.unsplash.com/photo-1520867195500-99c46c271fcd",
     coordinates: {
       lat: 1.1184,
       lng: 34.6258
@@ -64,7 +64,7 @@ export const locations: Location[] = [
     name: "Ol Donyo Sabuk",
     type: "camp",
     description: "A serene camping spot on this isolated mountain, offering panoramic views and buffalo sightings. Only an hour from Nairobi but feels worlds away.",
-    image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
+    image: "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7",
     coordinates: {
       lat: -1.1295,
       lng: 37.2555
@@ -78,7 +78,7 @@ export const locations: Location[] = [
     name: "Marafa Depression",
     type: "gem",
     description: "Known as 'Hell's Kitchen', this eroded sandstone canyon creates a stunning colorful landscape that's best viewed at sunset.",
-    image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb",
+    image: "https://images.unsplash.com/photo-1494825514961-674db1ac2700",
     coordinates: {
       lat: -3.1026,
       lng: 39.7277
@@ -93,7 +93,7 @@ export const locations: Location[] = [
     name: "Sleeping Warrior Camp",
     type: "camp",
     description: "Nestled at the base of the Sleeping Warrior hill in the Great Rift Valley, offering stunning lake views and walking safaris.",
-    image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05",
+    image: "https://images.unsplash.com/photo-1493246507139-91e8fad9978e",
     coordinates: {
       lat: -0.4511,
       lng: 36.2345
@@ -107,7 +107,7 @@ export const locations: Location[] = [
     name: "Chyulu Hills",
     type: "gem",
     description: "The 'Green Hills of Africa' as described by Hemingway, home to ancient volcanic tubes and caves with spectacular views of Kilimanjaro.",
-    image: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
+    image: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800",
     coordinates: {
       lat: -2.5583,
       lng: 37.8355
@@ -121,7 +121,7 @@ export const locations: Location[] = [
     name: "Shimba Hills Waterfalls",
     type: "gem",
     description: "A series of stunning waterfalls hidden in the Shimba Hills rainforest, surrounded by rare plant species and wildlife.",
-    image: "https://cdn.getyourguide.com/img/tour/725b30cf15c1901fdbb8a044e2fe313f144478e8b20df50b6345dd39c8bba305.jpg/99.jpg",
+    image: "https://images.unsplash.com/photo-1432405972618-c60b0225b8f9",
     coordinates: {
       lat: -4.2345,
       lng: 39.4567
@@ -136,7 +136,7 @@ export const locations: Location[] = [
     name: "Lake Kamnarok",
     type: "camp",
     description: "A hidden gem in the Kerio Valley, this seasonal lake attracts thousands of flamingos and offers spectacular views of the Rift Valley escarpment.",
-    image: "https://www.malindikenya.net/images/uploads/articoli/2189_m.jpg",
+    image: "https://images.unsplash.com/photo-1518736114810-3f3bedfec66a",
     coordinates: {
       lat: 0.4567,
       lng: 35.6789
@@ -150,7 +150,7 @@ export const locations: Location[] = [
     name: "Kakapel Rock Art",
     type: "gem",
     description: "Ancient rock paintings dating back thousands of years, hidden in the hills of western Kenya. A fascinating glimpse into Kenya's prehistoric past.",
-    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9jayUyMGFydHxlbnwwfHwwfHx8MA%3D&auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1508108712903-49b7ef9b1df8",
     coordinates: {
       lat: 0.7890,
       lng: 34.1234
@@ -164,7 +164,7 @@ export const locations: Location[] = [
     name: "Mugie Conservancy",
     type: "camp",
     description: "A private conservancy in Laikipia offering exclusive wildlife experiences and stunning views of Mount Kenya.",
-    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uc2VydmFuY3l8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205",
     coordinates: {
       lat: 0.1234,
       lng: 36.7890
@@ -179,7 +179,7 @@ export const locations: Location[] = [
     name: "Mfangano Island",
     type: "gem",
     description: "A hidden island in Lake Victoria with ancient rock art, sacred caves, and stunning lake views.",
-    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXNsYW5kfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5",
     coordinates: {
       lat: -0.4567,
       lng: 34.0123
@@ -193,7 +193,7 @@ export const locations: Location[] = [
     name: "Arabuko Sokoke Forest",
     type: "gem",
     description: "The largest remaining fragment of coastal forest in East Africa, home to rare birds and unique wildlife.",
-    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9yZXN0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1448375240586-882707db888b",
     coordinates: {
       lat: -3.4567,
       lng: 39.8901
@@ -208,7 +208,7 @@ export const locations: Location[] = [
     name: "Mathews Range",
     type: "camp",
     description: "Remote mountain range in northern Kenya with ancient cedar forests and spectacular views of the desert below.",
-    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW5zfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b",
     coordinates: {
       lat: 1.2345,
       lng: 37.8901
@@ -222,7 +222,7 @@ export const locations: Location[] = [
     name: "Lake Bogoria",
     type: "gem",
     description: "A lesser-known gem with hot springs, geysers, and thousands of flamingos, offering a unique geothermal experience.",
-    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90JTIwc3ByaW5nc3xlbnwwfHwwfHx8MA%3D&auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1572979926275-98e31dd5d681",
     coordinates: {
       lat: 0.2345,
       lng: 36.0123
@@ -237,7 +237,7 @@ export const locations: Location[] = [
     name: "The Nest at Watamu",
     type: "airbnb",
     description: "A stunning treehouse overlooking the Indian Ocean, offering a unique blend of luxury and nature. Perfect for romantic getaways.",
-    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJlZWhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
     coordinates: {
       lat: -3.3456,
       lng: 40.0123
@@ -253,7 +253,7 @@ export const locations: Location[] = [
     name: "Samburu Eco Lodge",
     type: "airbnb",
     description: "An eco-friendly lodge in the heart of Samburu, offering traditional manyatta-style accommodation with modern comforts.",
-    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWNvJTIwbG9kZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1493246507139-91e8fad9978e",
     coordinates: {
       lat: 0.5678,
       lng: 37.2345
@@ -268,7 +268,7 @@ export const locations: Location[] = [
     name: "Lake Naivasha Floating House",
     type: "airbnb",
     description: "A unique floating house on Lake Naivasha, offering 360-degree views of the lake and its wildlife. Perfect for bird watchers.",
-    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmxvYXRpbmclMjBob3VzZXxlbnwwfHwwfHx8MA%3D&auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2",
     coordinates: {
       lat: -0.7890,
       lng: 36.3456
@@ -284,7 +284,7 @@ export const locations: Location[] = [
     name: "Mount Kenya Glass House",
     type: "airbnb",
     description: "A modern glass house with panoramic views of Mount Kenya, offering a luxurious mountain retreat experience.",
-    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2xhc3MlMjBob3VzZXxlbnwwfHwwfHx8MA%3D&auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4",
     coordinates: {
       lat: 0.1234,
       lng: 37.4567
@@ -300,7 +300,7 @@ export const locations: Location[] = [
     name: "Lamu Island House",
     type: "airbnb",
     description: "A traditional Swahili house in Lamu's old town, offering an authentic coastal experience with modern amenities.",
-    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3dhaGlsaSUyMGhvdXNlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1582610116397-edb318620e96",
     coordinates: {
       lat: -2.2345,
       lng: 40.9012
@@ -568,95 +568,4 @@ export const locations: Location[] = [
       lat: -3.3097,
       lng: 40.0183
     },
-    features: ["Ancient ruins", "Archaeological site", "Historical monuments"],
-    rating: 4.7,
-    recommended: true,
-    region: "Coastal Kenya"
-  },
-  {
-    id: "40",
-    name: "Karura Forest",
-    type: "gem",
-    description: "An urban forest sanctuary in Nairobi with waterfalls, caves used by Mau Mau freedom fighters, and extensive walking and cycling trails.",
-    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXJiYW4lMjBmb3Jlc3R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
-    coordinates: {
-      lat: -1.2500,
-      lng: 36.8333
-    },
-    features: ["Waterfall", "Caves", "Cycling trails"],
-    rating: 4.8,
-    recommended: true,
-    region: "Nairobi Area"
-  },
-  {
-    id: "41",
-    name: "Saiwa Swamp National Park",
-    type: "gem",
-    description: "Kenya's smallest national park, a forested paradise dedicated to protecting the rare sitatunga antelope. Features raised boardwalks through the wetland.",
-    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3dhbXB8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
-    coordinates: {
-      lat: 1.0000,
-      lng: 35.2167
-    },
-    features: ["Sitatunga viewing", "Boardwalks", "Bird watching"],
-    rating: 4.5,
-    region: "Western Kenya"
-  },
-  {
-    id: "42",
-    name: "Ndere Island",
-    type: "gem",
-    description: "A hidden gem in Lake Victoria with hiking trails, abundant birdlife, and spectacular views of the surrounding lake and Homa Hills.",
-    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXNsYW5kfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-    coordinates: {
-      lat: -0.1833,
-      lng: 34.4667
-    },
-    features: ["Island hiking", "Bird watching", "Lake views"],
-    rating: 4.4,
-    region: "Western Kenya"
-  },
-  {
-    id: "43",
-    name: "Kigio Wildlife Conservancy",
-    type: "gem",
-    description: "A hidden conservation gem between Naivasha and Nakuru featuring the endangered Rothschild giraffe and sustainable ecotourism practices.",
-    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2lyYWZmZXxlbnwwfHwwfHx8MA%3D&auto=format&fit=crop&w=500&q=60",
-    coordinates: {
-      lat: -0.5167,
-      lng: 36.3500
-    },
-    features: ["Rothschild giraffes", "Walking safaris", "Conservation"],
-    rating: 4.7,
-    region: "Rift Valley"
-  },
-  {
-    id: "44",
-    name: "Wasini Island",
-    type: "gem",
-    description: "A car-free island off Kenya's south coast with ancient coral gardens, mangrove forests, and dolphin watching opportunities.",
-    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29yYWwlMjBnYXJkZW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
-    coordinates: {
-      lat: -4.6667,
-      lng: 39.3667
-    },
-    features: ["Coral gardens", "Dolphin watching", "Mangrove boardwalk"],
-    rating: 4.8,
-    recommended: true,
-    region: "Coastal Kenya"
-  },
-  {
-    id: "45",
-    name: "Mount Suswa",
-    type: "gem",
-    description: "A double crater extinct volcano with extensive cave systems, baboon congress, and spectacular night views of both Nairobi and the Rift Valley.",
-    image: "https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dm9sY2Fub3xlbnwwfHwwfHx8MA%3D&auto=format&fit=crop&w=500&q=60",
-    coordinates: {
-      lat: -1.1500,
-      lng: 36.3500
-    },
-    features: ["Cave exploration", "Double crater", "Wildlife viewing"],
-    rating: 4.6,
-    region: "Rift Valley"
-  }
-];
+    features: ["Ancient ruins", "Archaeological site

@@ -9,7 +9,19 @@ import { Skeleton } from "@/components/ui/skeleton";
 import AuthHeader from "@/components/AuthHeader";
 import UserAvatar from "@/components/UserAvatar";
 
-const fetchBlog = async (id: string) => {
+interface BlogWithProfile {
+  id: string;
+  title: string;
+  content: string;
+  created_at: string;
+  user_id: string;
+  profiles: {
+    username: string;
+    avatar_url: string | null;
+  } | null;
+}
+
+const fetchBlog = async (id: string): Promise<BlogWithProfile | null> => {
   const { data, error } = await supabase
     .from("blogs")
     .select(`
