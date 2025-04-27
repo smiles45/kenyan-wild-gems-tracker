@@ -12,7 +12,13 @@ import UserAvatar from "@/components/UserAvatar";
 const fetchBlog = async (id: string) => {
   const { data, error } = await supabase
     .from("blogs")
-    .select("*, profiles:username(username, avatar_url)")
+    .select(`
+      *,
+      profiles:user_id (
+        username,
+        avatar_url
+      )
+    `)
     .eq("id", id)
     .maybeSingle();
   if (error) throw error;
