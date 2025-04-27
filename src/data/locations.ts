@@ -1,3 +1,4 @@
+
 import { Location } from "../types/location";
 
 export const locations: Location[] = [
@@ -568,4 +569,8 @@ export const locations: Location[] = [
       lat: -3.3097,
       lng: 40.0183
     },
-    features: ["Ancient ruins", "Archaeological site
+    features: ["Ancient ruins", "Archaeological site", "Historical exploration"],
+    rating: 4.6,
+    region: "Coastal Kenya"
+  }
+];
