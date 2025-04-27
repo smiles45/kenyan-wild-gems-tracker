@@ -6,7 +6,7 @@ export const locations: Location[] = [
     name: "Lake Paradise Camp",
     type: "camp",
     description: "Hidden high on Mount Marsabit, this campsite offers stunning views of the lake and wildlife. A true paradise for nature lovers and photographers.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9GCvnQmrI5cgnxWgqTEJ5IllXd1w8pkMaOJ9rmMLFttY7chnwr-Bb-ys-V_NX70vopAY&usqp=CAU",
+    image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07",
     coordinates: {
       lat: 2.3082,
       lng: 37.9698
@@ -21,7 +21,7 @@ export const locations: Location[] = [
     name: "Ngare Ndare Forest",
     type: "gem",
     description: "A lush indigenous forest with crystal-clear blue pools and waterfalls. Experience the canopy walk for a bird's eye view of this magical forest.",
-    image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8a2VueWElMjBmb3Jlc3R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb",
     coordinates: {
       lat: 0.2342,
       lng: 37.4112
@@ -36,7 +36,7 @@ export const locations: Location[] = [
     name: "Kipsing Gap Camp",
     type: "camp",
     description: "A remote campsite in the heart of Samburu country with spectacular views of Ewaso Nyiro river. Perfect for stargazing and disconnecting.",
-    image: "https://images.unsplash.com/photo-1537225228614-56cc3556d7ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNhbXBpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9",
     coordinates: {
       lat: 0.6411,
       lng: 37.6731
@@ -50,7 +50,7 @@ export const locations: Location[] = [
     name: "Kitum Cave",
     type: "gem",
     description: "An extraordinary cave on Mount Elgon where elephants dig for salt. One of Kenya's most unique natural wonders.",
-    image: "https://images.unsplash.com/photo-1564295213136-88bb52f614d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2F2ZXxlbnwwfHwwfHx8MA%3D&auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86",
     coordinates: {
       lat: 1.1184,
       lng: 34.6258
@@ -64,7 +64,7 @@ export const locations: Location[] = [
     name: "Ol Donyo Sabuk",
     type: "camp",
     description: "A serene camping spot on this isolated mountain, offering panoramic views and buffalo sightings. Only an hour from Nairobi but feels worlds away.",
-    image: "https://images.unsplash.com/photo-1532339142463-fd0a8979791a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1vdW50YWluJTIwY2FtcHxlbnwwfHwwfHx8MA%3D&auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e",
     coordinates: {
       lat: -1.1295,
       lng: 37.2555
@@ -78,7 +78,7 @@ export const locations: Location[] = [
     name: "Marafa Depression",
     type: "gem",
     description: "Known as 'Hell's Kitchen', this eroded sandstone canyon creates a stunning colorful landscape that's best viewed at sunset.",
-    image: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FueW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb",
     coordinates: {
       lat: -3.1026,
       lng: 39.7277
@@ -93,7 +93,7 @@ export const locations: Location[] = [
     name: "Sleeping Warrior Camp",
     type: "camp",
     description: "Nestled at the base of the Sleeping Warrior hill in the Great Rift Valley, offering stunning lake views and walking safaris.",
-    image: "https://cdn-ildhbcd.nitrocdn.com/ZCWyroguFIUDJEMIpXkwbpTdiUIsRljU/assets/images/optimized/rev-e3cff24/cdn.atrsafari.com/cdn/05explore/locations-and-lodges/africa/kenya/nakuru/sleeping-warrior-lodge/0/stills/00page/01KSWL-IM0001-sleeping-warrior-lodge-1920.jpg",
+    image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05",
     coordinates: {
       lat: -0.4511,
       lng: 36.2345
@@ -107,7 +107,7 @@ export const locations: Location[] = [
     name: "Chyulu Hills",
     type: "gem",
     description: "The 'Green Hills of Africa' as described by Hemingway, home to ancient volcanic tubes and caves with spectacular views of Kilimanjaro.",
-    image: "https://images.unsplash.com/photo-1491497895121-1334fc14d8c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlZW4lMjBoaWxsc3xlbnwwfHwwfHx8MA%3D&auto=format&fit=crop&w=500&q=60",
+    image: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
     coordinates: {
       lat: -2.5583,
       lng: 37.8355
